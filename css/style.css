@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16171D;
+}
+
+.navbar {
+    background: #16171D;
+}
+
+.navbar-brand h2 {
+      color: #FFFFFF;
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 32px;
+}
+
+.navbar-brand h2 span {
+      color: #F5C249;
+      font-weight: 600;
+      font-size: 32px;
+      font-family: Poppins;
+}
+
+.nav-link {
+    color: #A7AEBF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.btn {
+    border-radius: 12px;
+    background: #F5C249;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #16171D;
+    padding:  30px, 22px, 20px;
+}
+
+.crypto {
+    display: flex;
+    flex-direction: row;
+    background: #16171D;
+    gap: 10rem;
+}
+
+.crypto div:nth-child(1) {
+    margin-top: 7rem;
+    margin-left: 4rem;
+
+}
+
+.crypto div:nth-child(1) h1 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.crypto div:nth-child(1) p {
+    color: #787A8D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.crypto div:nth-child(1) .con-btn {
+    margin-top: 3rem;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    background-color: #16171D;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+ 
+.boxes .spaces {
+    border: 2px solid #777A8D;
+    width: 352px;
+    height: 304px;
+    border-radius: 24px;
+    padding: 2rem;
+}
+
+.boxes .image {
+      display: grid;
+      place-items: center;
+}
+
+.boxes .spaces h3 {
+    font-family: Poppins;
+     font-size: 20px;
+    font-weight: 600; 
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 2rem;
+} 
+
+.boxes .spaces p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #787A8D;
+    margin-top: 1rem;
+}
+
+.fill {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    margin-top: 10rem;
+}
+
+.div2 .forms {
+      width: 400px;
+      height: 431px;
+     border-radius: 12px;
+     background: #21242D;
+     padding-top: 1.5rem;
+}
+
+.forms form input {
+    width: 90%;
+    margin: 1rem;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    background: #16171D;
+}
+
+.send {
+    display: grid;
+    place-items: center;
+}
+
+.send button {
+    width: 90%;
+    margin: 1rem;
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    background: #F5C249;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #16171D;
+}
+
+.latest h1 {
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #FFFFFF; 
+    margin-left: 9rem;  
+}
+
+.transacts {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.square {
+    width: 300px;
+    height: 427px;
+    border-radius: 10px;
+    background: #21242D;
+    position: relative;
+}
+
+.explore {
+    padding: 10px;
+}
+
+.date {
+    width: 140px;
+    height: 20px;
+    border-radius: 4px;
+    background: #F5C249;
+    position: absolute;
+    left: 4rem;
+
+}
+
+.date h3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;    
+}
+
+.square footer {
+    margin-left: 10px;
+}
+
+.square footer h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #A7AEBF;       
+}
+
+.square footer h4 span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;    
+}
+
+hr {
+    margin-top: 10rem;
+    color:#3c3f47; 
+}
+
+.sendcrypt {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+}
+
+.sendcrypt a {
+    text-decoration: none;
+}
+
+.sendcrypt a h2 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sendcrypt a h2 span {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+    color: #F5C249;
+}
+
+.sendcrypt ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.sendcrypt ul li {
+    list-style: none;
+}
+
+.sendcrypt p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    color: #787A8D;
+}
